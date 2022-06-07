@@ -1,61 +1,73 @@
-import time
-import socket
-import sys
-import _thread
-import os
+#importing
+import time,socket,sys,os,_thread
 
+
+
+
+#color
 class color:
     red = '\033[91m'
     sabz = '\033[92m'
     sefid = '\033[0m'
     narenji = '\033[93m'
     abi_kamrang = '\033[94m'
-    
-update = input(color.red+'       Update DDoser    n/y  ?   ')
 
 
-if update == ('y'):
-    print(color.sabz+'      ok')
-    time.sleep(2)
-    print(color.sabz+'      loading')
-    print(color.sabz+'      loading.')
+#update
+update = input(color.red+'       Update Doser    n/y  ?   ')
+fake_ip = "40.56.10.2"
+counter = 0
+
+if update == ('y') or update == ('Y'):
+    print("")
+    print(color.red+" [       ] 0%")
     time.sleep(1)
-    print(color.sabz+'      loading..')
-    time.sleep(2)
-    print(color.sabz+'      loading...')
-    os.system('clear')
+    print(color.abi_kamrang+" [=======   ] 20%")
+    time.sleep(0.6)
+    print(color.abi_kamrang+" [============ ] 40%")
+    time.sleep(0.5)
+    print(color.abi_kamrang+" [================ ] 60%")
+    time.sleep(0.8)
+    print(color.abi_kamrang+" [==================== ] 80%")
+    time.sleep(0.6)
+    print(color.abi_kamrang+" [========================= ] 100%")
+    os.system('clear' or 'cls')
+    os.system('python -m pip install pip')
+    os.system('pip install pip')
     os.system('pip install os')
-    os.system('pip install requests')
     os.system('pip install time')
     os.system('pip install sys')
     os.system('pip install socket')
     os.system('pip install colorama')
-    os.system('python -m pip install pip')
-    os.system('pip install pip')
+    os.system('pip install thread')
     print(color.sabz+'.')
     os.system('pip')
-    os.system('cls')
-    os.system('clear')
+    os.system('cls' or 'clear')
 
-if update == ('n'):
-    print(color.sabz+'      ok')
-    time.sleep(2)
-    print(color.sabz+'      loading')
-    print(color.sabz+'      loading.')
-    print(color.sabz+'      loading..')
+if update == ('n') or update == ('N'):
+    print("")
+    print(color.red+" [       ] 0%")
     time.sleep(1)
-    print(color.sabz+'      loading...')
-    time.sleep(1)
-    print(color.sabz+'      starting...')
-    os.system('clear')
+    print(color.abi_kamrang+" [=======   ] 20%")
+    time.sleep(0.6)
+    print(color.abi_kamrang+" [============ ] 40%")
+    time.sleep(0.5)
+    print(color.abi_kamrang+" [================ ] 60%")
+    time.sleep(0.8)
+    print(color.abi_kamrang+" [==================== ] 80%")
+    time.sleep(0.6)
+    print(color.abi_kamrang+" [========================= ] 100%")
+    os.system('cls' or 'clear')
     print('')
     print('')
     print('')
 
 
 
+
+os.system('cls' or 'clear')
 print('')
-print(color.sabz+'''       \tW E L C O M   T O   D D O S E R    OS™ ''')
+print(color.sabz+'''       \tW E L C O M   T O   D D O S E R     ''')
 print('')
 print(color.sefid+'------------------------------------------------------------')
 print('')
@@ -67,18 +79,18 @@ print('')
 print(color.sefid+'------------------------------------------------------------')
 print('')
 print('')
-site = input(color.sabz+"      Enter your site url => ")
+site = input(color.sabz+"      Enter target site url => ")
 ip = socket.gethostbyname(site)
 print('')
 print("     your target IP:  ", ip)
 print('')
-thread_count = input(color.red+"      Enter your thread => ")
+thread_count = input(color.red+"      Enter power attack => ")
 print('')
 UDP_PORT = 80
 MESSAGE = input(color.abi_kamrang+'      Enter message =>  ')
 print(color.sefid+'------------------------------------------------------------')
 time.sleep(2)
-os.system('clear')
+os.system('clear' or 'cls')
 print(color.sabz+'''         \tS T A R T I N G    D D O S E R ''')
 print('')
 print(color.sefid+'------------------------------------------------------------')
