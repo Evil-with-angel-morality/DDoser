@@ -22,3 +22,10 @@ It sends very large requests to the target and causes the target to crash and be
 7_Now wait a minute
 
 8_BOMMMMM Start to see and be surprised !!!
+
+
+
+# 
+
+
+Tested on Windows
