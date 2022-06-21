@@ -4,5 +4,5 @@ This is a great tool and a complete open source for attacking and disabling site
 
 
 
-#What does DDOSER do?
+# What does DDOSER do?
 It sends very large requests to the target and causes the target to crash and become paralyzed.
